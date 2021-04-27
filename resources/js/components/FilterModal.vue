@@ -36,7 +36,7 @@
               <label
                 :for="filter.name"
                 class="inline-block text-80 pt-2 leading-tight"
-              >{{ filter.name }}</label>
+              >{{ filter.name + " " + selectedFilters[filter.class]}}</label>
             </div>
             <div class="py-6 px-8 w-1/2">
               <date-time-picker
@@ -110,7 +110,7 @@ export default {
             console.log("filter x: ");
             console.log(filter);
             console.log(filter.class);
-        console.log(this.selectedFilters[filter.class])
+            console.log(this.selectedFilters[filter.class])
         });
     },
 

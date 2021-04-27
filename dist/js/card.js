@@ -75940,7 +75940,15 @@ var render = function() {
                                 "inline-block text-80 pt-2 leading-tight",
                               attrs: { for: filter.name }
                             },
-                            [_vm._v(_vm._s(filter.name))]
+                            [
+                              _vm._v(
+                                _vm._s(
+                                  filter.name +
+                                    " " +
+                                    _vm.selectedFilters[filter.class]
+                                )
+                              )
+                            ]
                           )
                         ]),
                         _vm._v(" "),
