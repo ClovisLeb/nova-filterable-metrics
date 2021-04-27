@@ -36,8 +36,8 @@
               <label
                 :for="filter.name"
                 class="inline-block text-80 pt-2 leading-tight"
-              >{{ filter.name + " " + selectedFilters[filter.class]}}</label>
-              <div>
+              >{{ filter.name }}</label>
+              <!-- <div>
                   {{ JSON.stringify(selectedFilters) }}
               </div>
               <div>
@@ -46,6 +46,9 @@
               <div>
                   {{ JSON.stringify(filter.class) }}
               </div>
+               <div>
+                 {{ selectedFilters[filter.class] }}
+              </div> -->
             </div>
             <div class="py-6 px-8 w-1/2">
               <date-time-picker

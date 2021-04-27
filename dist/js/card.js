@@ -75783,6 +75783,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ["title", "ranges", "filters", "selectedRangeKey", "selectedFilters"],
@@ -75952,40 +75955,8 @@ var render = function() {
                                 "inline-block text-80 pt-2 leading-tight",
                               attrs: { for: filter.name }
                             },
-                            [
-                              _vm._v(
-                                _vm._s(
-                                  filter.name +
-                                    " " +
-                                    _vm.selectedFilters[filter.class]
-                                )
-                              )
-                            ]
-                          ),
-                          _vm._v(" "),
-                          _c("div", [
-                            _vm._v(
-                              "\n                " +
-                                _vm._s(JSON.stringify(_vm.selectedFilters)) +
-                                "\n            "
-                            )
-                          ]),
-                          _vm._v(" "),
-                          _c("div", [
-                            _vm._v(
-                              "\n                " +
-                                _vm._s(JSON.stringify(filter)) +
-                                "\n            "
-                            )
-                          ]),
-                          _vm._v(" "),
-                          _c("div", [
-                            _vm._v(
-                              "\n                " +
-                                _vm._s(JSON.stringify(filter.class)) +
-                                "\n            "
-                            )
-                          ])
+                            [_vm._v(_vm._s(filter.name))]
+                          )
                         ]),
                         _vm._v(" "),
                         _c(
@@ -76197,7 +76168,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         enableTime: _this.enableTime,
         enableSeconds: _this.enableSeconds,
         onClose: _this.onChange,
-        // onChange: this.onChange,
         dateFormat: _this.dateFormat,
         allowInput: true,
         // static: true,
@@ -76206,23 +76176,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         mode: _this.mode
       });
     });
-  },
-
-
-  methods: {
-    onChange: function onChange(event) {
-      console.log("flatpicker onChange");
-    }
-  },
-
-  watch: {
-    value: function value(newValue, oldValue) {
-      console.log("flapicker value watcher triggered1: ", newValue);
-      if (this.flatpickr) {
-        console.log("flapicker value watcher triggered2: ", newValue);
-        this.flatpickr.setDate(newValue);
-      }
-    }
   }
 });
 
