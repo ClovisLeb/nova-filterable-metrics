@@ -75786,7 +75786,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     console.log(this);
     console.log(this.filters);
     console.log(this.selectedFilters);
-    this.selectedFilters.forEach(function (element) {
+    this.filters.forEach(function (filter) {
       console.log("filter x: ");
       console.log(filter);
       console.log(filter.class);

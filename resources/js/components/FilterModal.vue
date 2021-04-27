@@ -106,7 +106,7 @@ export default {
         console.log(this);
         console.log(this.filters);
         console.log(this.selectedFilters);
-        this.selectedFilters.forEach(element => {
+        this.filters.forEach(filter => {
             console.log("filter x: ");
             console.log(filter);
             console.log(filter.class);
