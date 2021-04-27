@@ -23,6 +23,7 @@ export default {
         enableTime: this.enableTime,
         enableSeconds: this.enableSeconds,
         onClose: this.onChange,
+        onChange: this.onChange,
         dateFormat: this.dateFormat,
         allowInput: true,
         // static: true,
@@ -31,6 +32,22 @@ export default {
         mode: this.mode
       });
     });
-  }
+  },
+
+  methods: {
+    onChange(event) {
+        console.log("flatpicker changed");
+      this.$emit('change', this.$refs.datePicker.value)
+    },
+  },
+
+  watch: {
+    value: function (newValue, oldValue) {
+      if (this.flatpickr) {
+          console.log("flapicker value watcher triggered: ", newValue);
+        this.flatpickr.setDate(newValue)
+      }
+    },
+  },
 };
 </script>

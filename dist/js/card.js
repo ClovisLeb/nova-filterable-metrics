@@ -75810,7 +75810,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       console.log("filter: ", filter);
       if (filter === null) {
         this.$emit("selected", event.target.value);
-        this.$toasted.show("Filtered Time Range", {
+        this.$toasted.show("Période filtrée", {
           type: "success"
         });
         return;
@@ -75831,7 +75831,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
           filter: filter,
           selected: selected
         });
-        this.$toasted.show(filter.name + " filtré", {
+        this.$toasted.show(filter.name + " filtré(e)", {
           type: "success"
         });
       }
@@ -76161,6 +76161,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         enableTime: _this.enableTime,
         enableSeconds: _this.enableSeconds,
         onClose: _this.onChange,
+        onChange: _this.onChange,
         dateFormat: _this.dateFormat,
         allowInput: true,
         // static: true,
@@ -76169,6 +76170,23 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         mode: _this.mode
       });
     });
+  },
+
+
+  methods: {
+    onChange: function onChange(event) {
+      console.log("flatpicker changed");
+      this.$emit('change', this.$refs.datePicker.value);
+    }
+  },
+
+  watch: {
+    value: function value(newValue, oldValue) {
+      if (this.flatpickr) {
+        console.log("flapicker value watcher triggered: ", newValue);
+        this.flatpickr.setDate(newValue);
+      }
+    }
   }
 });
 

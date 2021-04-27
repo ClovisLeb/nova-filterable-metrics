@@ -129,7 +129,7 @@ export default {
         console.log("filter: ", filter);
       if (filter === null) {
         this.$emit("selected", event.target.value);
-        this.$toasted.show("Filtered Time Range", {
+        this.$toasted.show("Période filtrée", {
           type: "success"
         });
         return;
@@ -150,7 +150,7 @@ export default {
           filter,
           selected
         });
-        this.$toasted.show(filter.name + " filtré", {
+        this.$toasted.show(filter.name + " filtré(e)", {
           type: "success"
         });
       }
