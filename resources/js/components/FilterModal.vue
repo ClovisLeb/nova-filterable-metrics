@@ -97,18 +97,21 @@
 export default {
   props: ["title", "ranges", "filters", "selectedRangeKey", "selectedFilters"],
 
+ created() {
+      console.log("created");
+    },
+
    mounted() {
       console.log("mounted");
         console.log(this);
-        console.log(this.props);
-        console.log(selectedFilters);
-        console.log(filters);
-    },
-
-     created() {
-      console.log("created");
-        console.log(selectedFilters);
-        console.log(filters);
+        console.log(this.filters);
+        console.log(this.selectedFilters);
+        this.selectedFilters.forEach(element => {
+            console.log("filter x: ");
+            console.log(filter);
+            console.log(filter.class);
+        console.log(selectedFilters[filter.class])
+        });
     },
 
   methods: {
@@ -123,6 +126,7 @@ export default {
     },
 
     handleChange(filter, event) {
+        console.log("filter: ", filter);
       if (filter === null) {
         this.$emit("selected", event.target.value);
         this.$toasted.show("Filtered Time Range", {

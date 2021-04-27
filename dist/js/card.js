@@ -75778,17 +75778,20 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ["title", "ranges", "filters", "selectedRangeKey", "selectedFilters"],
 
+  created: function created() {
+    console.log("created");
+  },
   mounted: function mounted() {
     console.log("mounted");
     console.log(this);
-    console.log(this.props);
-    console.log(selectedFilters);
-    console.log(filters);
-  },
-  created: function created() {
-    console.log("created");
-    console.log(selectedFilters);
-    console.log(filters);
+    console.log(this.filters);
+    console.log(this.selectedFilters);
+    this.selectedFilters.forEach(function (element) {
+      console.log("filter x: ");
+      console.log(filter);
+      console.log(filter.class);
+      console.log(selectedFilters[filter.class]);
+    });
   },
 
 
@@ -75802,6 +75805,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       this.$emit("closeModal");
     },
     handleChange: function handleChange(filter, event) {
+      console.log("filter: ", filter);
       if (filter === null) {
         this.$emit("selected", event.target.value);
         this.$toasted.show("Filtered Time Range", {
