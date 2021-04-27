@@ -62,6 +62,7 @@ import TrendMetric from "@/components/Metrics/Base/TrendMetric";
 
 export default {
   extends: TrendMetric,
-  mixins: [require("@/base"), require("./../modal")]
+//   mixins: [require("@/base"), require("./../modal")]
+  mixins: [require("./../modal")]
 };
 </script>
