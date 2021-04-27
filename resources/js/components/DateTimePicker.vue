@@ -23,7 +23,7 @@ export default {
         enableTime: this.enableTime,
         enableSeconds: this.enableSeconds,
         onClose: this.onChange,
-        onChange: this.onChange,
+        // onChange: this.onChange,
         dateFormat: this.dateFormat,
         allowInput: true,
         // static: true,
