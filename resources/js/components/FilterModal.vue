@@ -137,6 +137,8 @@ export default {
       let selected;
       if (filter.component.includes("date")) {
         selected = event;
+        console.log("datepicker val", selected);
+        this.flatpickr.setDate(selected);
       } else {
         selected = event.target.value;
       }

@@ -75818,6 +75818,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       var selected = void 0;
       if (filter.component.includes("date")) {
         selected = event;
+        console.log("datepicker val", selected);
+        this.flatpickr.setDate(selected);
       } else {
         selected = event.target.value;
       }
@@ -76182,8 +76184,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
   watch: {
     value: function value(newValue, oldValue) {
+      console.log("flapicker value watcher triggered1: ", newValue);
       if (this.flatpickr) {
-        console.log("flapicker value watcher triggered: ", newValue);
+        console.log("flapicker value watcher triggered2: ", newValue);
         this.flatpickr.setDate(newValue);
       }
     }

@@ -43,8 +43,9 @@ export default {
 
   watch: {
     value: function (newValue, oldValue) {
+          console.log("flapicker value watcher triggered1: ", newValue);
       if (this.flatpickr) {
-          console.log("flapicker value watcher triggered: ", newValue);
+          console.log("flapicker value watcher triggered2: ", newValue);
         this.flatpickr.setDate(newValue)
       }
     },
