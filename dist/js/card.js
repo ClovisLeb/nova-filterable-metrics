@@ -75780,6 +75780,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
   mounted: function mounted() {
     console.log("mounted");
+    console.log(this);
+    console.log(this.props);
     console.log(selectedFilters);
     console.log(filters);
   },

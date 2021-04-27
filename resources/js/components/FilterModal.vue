@@ -99,6 +99,8 @@ export default {
 
    mounted() {
       console.log("mounted");
+        console.log(this);
+        console.log(this.props);
         console.log(selectedFilters);
         console.log(filters);
     },
