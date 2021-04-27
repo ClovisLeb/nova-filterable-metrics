@@ -75774,15 +75774,21 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
-//
-//
-//
-//
-//
-//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ["title", "ranges", "filters", "selectedRangeKey", "selectedFilters"],
+
+  mounted: function mounted() {
+    console.log("mounted");
+    console.log(selectedFilters);
+    console.log(filters);
+  },
+  created: function created() {
+    console.log("created");
+    console.log(selectedFilters);
+    console.log(filters);
+  },
+
 
   methods: {
     inputClasses: function inputClasses(inputType) {

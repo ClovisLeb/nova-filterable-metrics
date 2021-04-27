@@ -1,9 +1,3 @@
-<script>
-console.log("meta");
-console.log(selectedFilters);
-console.log(filters);
-</script>
-
 <template>
   <modal class="modal" tabindex="-1" role="dialog">
     <div class="bg-white rounded-lg shadow-lg overflow-hidden w-action-fields">
@@ -102,6 +96,18 @@ console.log(filters);
 <script>
 export default {
   props: ["title", "ranges", "filters", "selectedRangeKey", "selectedFilters"],
+
+   mounted() {
+      console.log("mounted");
+        console.log(selectedFilters);
+        console.log(filters);
+    },
+
+     created() {
+      console.log("created");
+        console.log(selectedFilters);
+        console.log(filters);
+    },
 
   methods: {
     inputClasses(inputType) {
