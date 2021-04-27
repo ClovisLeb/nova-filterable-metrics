@@ -3,7 +3,6 @@ const path = require("path");
 
 mix.setPublicPath("dist")
     .js("resources/js/card.js", "js")
-    .vue()
     .sass("resources/sass/card.scss", "css")
     .webpackConfig({
         resolve: {
