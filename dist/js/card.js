@@ -75774,6 +75774,12 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 //
 //
 //
+//
+//
+//
+//
+//
+//
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   props: ["title", "ranges", "filters", "selectedRangeKey", "selectedFilters"],
@@ -75811,7 +75817,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
           filter: filter,
           selected: selected
         });
-        this.$toasted.show("Filtered " + filter.name, {
+        this.$toasted.show(filter.name + " filtré", {
           type: "success"
         });
       }

@@ -1,3 +1,9 @@
+<script>
+console.log("meta");
+console.log(selectedFilters);
+console.log(filters);
+</script>
+
 <template>
   <modal class="modal" tabindex="-1" role="dialog">
     <div class="bg-white rounded-lg shadow-lg overflow-hidden w-action-fields">
@@ -132,7 +138,7 @@ export default {
           filter,
           selected
         });
-        this.$toasted.show("Filtered " + filter.name, {
+        this.$toasted.show(filter.name + " filtré", {
           type: "success"
         });
       }
