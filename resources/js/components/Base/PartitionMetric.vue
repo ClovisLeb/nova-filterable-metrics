@@ -79,6 +79,7 @@ import PartitionMetric from "@/components/Metrics/Base/PartitionMetric";
 
 export default {
   extends: PartitionMetric,
-  mixins: [require("@/base"), require("./../modal")]
+//   mixins: [require("@/base"), require("./../modal")]
+  mixins: [require("./../modal")]
 };
 </script>
