@@ -48,10 +48,10 @@
                 name="date-filter"
                 autocomplete="off"
                 :value="selectedFilters[filter.class]"
-                dateFormat="Y-m-d"
+                dateFormat="Y-m-d H:i:s"
                 :placeholder="placeholder"
-                :enable-time="false"
-                :enable-seconds="false"
+                :enable-time="true"
+                :enable-seconds="true"
                 :first-day-of-week="firstDayOfWeek"
                 @input.prevent
                 @change="handleChange(filter, $event)"
