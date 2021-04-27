@@ -15,9 +15,9 @@ export default {
     } catch (e) {}
 
     if (this.mode == "range") {
-      this.placeholder = "Choose date range";
+      this.placeholder = "Choisissez une période";
     }
-console.log("enable time", this.enableTime);
+
     this.$nextTick(() => {
       this.flatpickr = flatpickr(this.$refs.datePicker, {
         enableTime: this.enableTime,

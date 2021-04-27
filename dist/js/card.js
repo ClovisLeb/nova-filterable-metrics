@@ -75941,8 +75941,8 @@ var render = function() {
                                     value: _vm.selectedFilters[filter.class],
                                     dateFormat: "Y-m-d H:i:s",
                                     placeholder: _vm.placeholder,
-                                    "enable-time": true,
-                                    "enable-seconds": true,
+                                    "enable-time": filter.enableTime,
+                                    "enable-seconds": filter.enableSeconds,
                                     "first-day-of-week": _vm.firstDayOfWeek
                                   },
                                   on: {
@@ -76125,9 +76125,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     } catch (e) {}
 
     if (this.mode == "range") {
-      this.placeholder = "Choose date range";
+      this.placeholder = "Choisissez une période";
     }
-    console.log("enable time", this.enableTime);
+
     this.$nextTick(function () {
       _this.flatpickr = flatpickr(_this.$refs.datePicker, {
         enableTime: _this.enableTime,

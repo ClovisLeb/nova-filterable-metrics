@@ -50,8 +50,8 @@
                 :value="selectedFilters[filter.class]"
                 dateFormat="Y-m-d H:i:s"
                 :placeholder="placeholder"
-                :enable-time="true"
-                :enable-seconds="true"
+                :enable-time="filter.enableTime"
+                :enable-seconds="filter.enableSeconds"
                 :first-day-of-week="firstDayOfWeek"
                 @input.prevent
                 @change="handleChange(filter, $event)"
