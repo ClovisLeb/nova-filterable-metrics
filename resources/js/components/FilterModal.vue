@@ -110,7 +110,7 @@ export default {
             console.log("filter x: ");
             console.log(filter);
             console.log(filter.class);
-        console.log(selectedFilters[filter.class])
+        console.log(this.selectedFilters[filter.class])
         });
     },
 

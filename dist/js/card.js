@@ -75782,6 +75782,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
     console.log("created");
   },
   mounted: function mounted() {
+    var _this = this;
+
     console.log("mounted");
     console.log(this);
     console.log(this.filters);
@@ -75790,7 +75792,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       console.log("filter x: ");
       console.log(filter);
       console.log(filter.class);
-      console.log(selectedFilters[filter.class]);
+      console.log(_this.selectedFilters[filter.class]);
     });
   },
 
