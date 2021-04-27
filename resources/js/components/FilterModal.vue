@@ -97,7 +97,7 @@
 export default {
   props: ["title", "ranges", "filters", "selectedRangeKey", "selectedFilters"],
 
- created() {
+    created() {
       console.log("created");
     },
 
@@ -126,7 +126,8 @@ export default {
     },
 
     handleChange(filter, event) {
-        console.log("filter: ", filter);
+        console.log("filter handleChange: ", filter);
+
       if (filter === null) {
         this.$emit("selected", event.target.value);
         this.$toasted.show("Période filtrée", {
@@ -139,9 +140,6 @@ export default {
         selected = event;
         console.log("datepicker val", selected);
         console.log("datepicker value context this", this);
-        console.log("datepicker value context this2", this.$refs);
-      this.$emit('change', this.$refs.datePicker.value)
-        this.$refs.flatpickr.setDate(selected);
       } else {
         selected = event.target.value;
       }

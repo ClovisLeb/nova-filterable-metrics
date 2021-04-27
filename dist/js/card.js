@@ -75807,7 +75807,8 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       this.$emit("closeModal");
     },
     handleChange: function handleChange(filter, event) {
-      console.log("filter: ", filter);
+      console.log("filter handleChange: ", filter);
+
       if (filter === null) {
         this.$emit("selected", event.target.value);
         this.$toasted.show("Période filtrée", {
@@ -75820,9 +75821,6 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
         selected = event;
         console.log("datepicker val", selected);
         console.log("datepicker value context this", this);
-        console.log("datepicker value context this2", this.$refs);
-        this.$emit('change', this.$refs.datePicker.value);
-        this.$refs.flatpickr.setDate(selected);
       } else {
         selected = event.target.value;
       }
@@ -76180,8 +76178,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
   methods: {
     onChange: function onChange(event) {
-      console.log("flatpicker changed");
-      this.$emit('change', this.$refs.datePicker.value);
+      console.log("flatpicker onChange");
     }
   },
 

@@ -36,8 +36,7 @@ export default {
 
   methods: {
     onChange(event) {
-        console.log("flatpicker changed");
-      this.$emit('change', this.$refs.datePicker.value)
+        console.log("flatpicker onChange");
     },
   },
 
