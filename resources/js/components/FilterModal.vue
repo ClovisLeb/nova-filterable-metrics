@@ -86,7 +86,7 @@
       <div class="bg-30 px-6 py-3 flex">
         <div class="flex items-center ml-auto">
           <button @click.prevent="closeModal" type="submit" class="btn btn-default btn-primary">
-            <span>Save</span>
+            <span>Sauvegarder</span>
           </button>
         </div>
       </div>
