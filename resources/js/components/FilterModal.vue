@@ -5,7 +5,7 @@
         <heading
           :level="2"
           class="border-b border-40 py-8 px-8 text-90 font-normal text-xl"
-        >Filtrer "{{ title }}"</heading>
+        >Filtration "{{ title }}"</heading>
 
         <div class="py-6 action">
           <div v-if="ranges && ranges.length > 0" class="flex border-b border-40">
