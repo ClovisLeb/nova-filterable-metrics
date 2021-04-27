@@ -75819,7 +75819,10 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
       if (filter.component.includes("date")) {
         selected = event;
         console.log("datepicker val", selected);
-        this.flatpickr.setDate(selected);
+        console.log("datepicker value context this", this);
+        console.log("datepicker value context this2", this.$refs);
+        this.$emit('change', this.$refs.datePicker.value);
+        this.$refs.flatpickr.setDate(selected);
       } else {
         selected = event.target.value;
       }
