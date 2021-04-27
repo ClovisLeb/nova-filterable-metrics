@@ -1,26 +1,53 @@
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./resources/js/card.js":
-/*!******************************!*\
-  !*** ./resources/js/card.js ***!
-  \******************************/
+/***/ "./resources/js/components/DateTimePicker.vue":
+/*!****************************************************!*\
+  !*** ./resources/js/components/DateTimePicker.vue ***!
+  \****************************************************/
 /***/ (() => {
 
-throw new Error("Module build failed (from ./node_modules/babel-loader/lib/index.js):\nTypeError: Cannot read property 'replace' of undefined\n    at relative (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/babel-loader/lib/utils/relative.js:5:31)\n    at Object.module.exports (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/babel-loader/lib/index.js:147:30)");
+throw new Error("Module build failed (from ./node_modules/vue-loader/index.js):\nTypeError: Class constructor LRUCache cannot be invoked without 'new'\n    at Object.<anonymous> (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/vue-loader/lib/parser.js:2:35)\n    at Module._compile (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n    at Module.load (internal/modules/cjs/loader.js:863:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n    at Module.require (internal/modules/cjs/loader.js:887:19)\n    at require (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)\n    at Object.<anonymous> (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/vue-loader/lib/loader.js:3:15)\n    at Module._compile (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n    at Module.load (internal/modules/cjs/loader.js:863:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n    at Module.require (internal/modules/cjs/loader.js:887:19)\n    at require (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)\n    at Object.<anonymous> (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/vue-loader/index.js:1:80)\n    at Module._compile (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)");
 
 /***/ }),
 
-/***/ "./resources/sass/card.scss":
-/*!**********************************!*\
-  !*** ./resources/sass/card.scss ***!
-  \**********************************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+/***/ "./resources/js/components/FilterModal.vue":
+/*!*************************************************!*\
+  !*** ./resources/js/components/FilterModal.vue ***!
+  \*************************************************/
+/***/ (() => {
 
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-// extracted by mini-css-extract-plugin
+throw new Error("Module build failed: TypeError: Class constructor LRUCache cannot be invoked without 'new'\n    at Object.<anonymous> (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/vue-loader/lib/parser.js:2:35)\n    at Module._compile (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n    at Module.load (internal/modules/cjs/loader.js:863:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n    at Module.require (internal/modules/cjs/loader.js:887:19)\n    at require (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)\n    at Object.<anonymous> (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/vue-loader/lib/loader.js:3:15)\n    at Module._compile (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n    at Module.load (internal/modules/cjs/loader.js:863:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n    at Module.require (internal/modules/cjs/loader.js:887:19)\n    at require (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)\n    at Object.<anonymous> (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/vue-loader/index.js:1:80)\n    at Module._compile (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)");
 
+/***/ }),
+
+/***/ "./resources/js/components/FilterablePartitionMetric.vue":
+/*!***************************************************************!*\
+  !*** ./resources/js/components/FilterablePartitionMetric.vue ***!
+  \***************************************************************/
+/***/ (() => {
+
+throw new Error("Module build failed (from ./node_modules/vue-loader/index.js):\nTypeError: Class constructor LRUCache cannot be invoked without 'new'\n    at Object.<anonymous> (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/vue-loader/lib/parser.js:2:35)\n    at Module._compile (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n    at Module.load (internal/modules/cjs/loader.js:863:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n    at Module.require (internal/modules/cjs/loader.js:887:19)\n    at require (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)\n    at Object.<anonymous> (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/vue-loader/lib/loader.js:3:15)\n    at Module._compile (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n    at Module.load (internal/modules/cjs/loader.js:863:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n    at Module.require (internal/modules/cjs/loader.js:887:19)\n    at require (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)\n    at Object.<anonymous> (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/vue-loader/index.js:1:80)\n    at Module._compile (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)");
+
+/***/ }),
+
+/***/ "./resources/js/components/FilterableTrendMetric.vue":
+/*!***********************************************************!*\
+  !*** ./resources/js/components/FilterableTrendMetric.vue ***!
+  \***********************************************************/
+/***/ (() => {
+
+throw new Error("Module build failed (from ./node_modules/vue-loader/index.js):\nTypeError: Class constructor LRUCache cannot be invoked without 'new'\n    at Object.<anonymous> (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/vue-loader/lib/parser.js:2:35)\n    at Module._compile (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n    at Module.load (internal/modules/cjs/loader.js:863:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n    at Module.require (internal/modules/cjs/loader.js:887:19)\n    at require (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)\n    at Object.<anonymous> (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/vue-loader/lib/loader.js:3:15)\n    at Module._compile (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n    at Module.load (internal/modules/cjs/loader.js:863:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n    at Module.require (internal/modules/cjs/loader.js:887:19)\n    at require (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)\n    at Object.<anonymous> (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/vue-loader/index.js:1:80)\n    at Module._compile (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)");
+
+/***/ }),
+
+/***/ "./resources/js/components/FilterableValueMetric.vue":
+/*!***********************************************************!*\
+  !*** ./resources/js/components/FilterableValueMetric.vue ***!
+  \***********************************************************/
+/***/ (() => {
+
+throw new Error("Module build failed (from ./node_modules/vue-loader/index.js):\nTypeError: Class constructor LRUCache cannot be invoked without 'new'\n    at Object.<anonymous> (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/vue-loader/lib/parser.js:2:35)\n    at Module._compile (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n    at Module.load (internal/modules/cjs/loader.js:863:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n    at Module.require (internal/modules/cjs/loader.js:887:19)\n    at require (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)\n    at Object.<anonymous> (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/vue-loader/lib/loader.js:3:15)\n    at Module._compile (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)\n    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)\n    at Module.load (internal/modules/cjs/loader.js:863:32)\n    at Function.Module._load (internal/modules/cjs/loader.js:708:14)\n    at Module.require (internal/modules/cjs/loader.js:887:19)\n    at require (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/v8-compile-cache/v8-compile-cache.js:159:20)\n    at Object.<anonymous> (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/vue-loader/index.js:1:80)\n    at Module._compile (/Users/clovisleblond/www/nova-filterable-metrics/node_modules/v8-compile-cache/v8-compile-cache.js:192:30)");
 
 /***/ })
 
@@ -50,117 +77,21 @@ __webpack_require__.r(__webpack_exports__);
 /******/ 		return module.exports;
 /******/ 	}
 /******/ 	
-/******/ 	// expose the modules object (__webpack_modules__)
-/******/ 	__webpack_require__.m = __webpack_modules__;
-/******/ 	
 /************************************************************************/
-/******/ 	/* webpack/runtime/chunk loaded */
-/******/ 	(() => {
-/******/ 		var deferred = [];
-/******/ 		__webpack_require__.O = (result, chunkIds, fn, priority) => {
-/******/ 			if(chunkIds) {
-/******/ 				priority = priority || 0;
-/******/ 				for(var i = deferred.length; i > 0 && deferred[i - 1][2] > priority; i--) deferred[i] = deferred[i - 1];
-/******/ 				deferred[i] = [chunkIds, fn, priority];
-/******/ 				return;
-/******/ 			}
-/******/ 			var notFulfilled = Infinity;
-/******/ 			for (var i = 0; i < deferred.length; i++) {
-/******/ 				var [chunkIds, fn, priority] = deferred[i];
-/******/ 				var fulfilled = true;
-/******/ 				for (var j = 0; j < chunkIds.length; j++) {
-/******/ 					if ((priority & 1 === 0 || notFulfilled >= priority) && Object.keys(__webpack_require__.O).every((key) => (__webpack_require__.O[key](chunkIds[j])))) {
-/******/ 						chunkIds.splice(j--, 1);
-/******/ 					} else {
-/******/ 						fulfilled = false;
-/******/ 						if(priority < notFulfilled) notFulfilled = priority;
-/******/ 					}
-/******/ 				}
-/******/ 				if(fulfilled) {
-/******/ 					deferred.splice(i--, 1)
-/******/ 					result = fn();
-/******/ 				}
-/******/ 			}
-/******/ 			return result;
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/hasOwnProperty shorthand */
-/******/ 	(() => {
-/******/ 		__webpack_require__.o = (obj, prop) => (Object.prototype.hasOwnProperty.call(obj, prop))
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/make namespace object */
-/******/ 	(() => {
-/******/ 		// define __esModule on exports
-/******/ 		__webpack_require__.r = (exports) => {
-/******/ 			if(typeof Symbol !== 'undefined' && Symbol.toStringTag) {
-/******/ 				Object.defineProperty(exports, Symbol.toStringTag, { value: 'Module' });
-/******/ 			}
-/******/ 			Object.defineProperty(exports, '__esModule', { value: true });
-/******/ 		};
-/******/ 	})();
-/******/ 	
-/******/ 	/* webpack/runtime/jsonp chunk loading */
-/******/ 	(() => {
-/******/ 		// no baseURI
-/******/ 		
-/******/ 		// object to store loaded and loading chunks
-/******/ 		// undefined = chunk not loaded, null = chunk preloaded/prefetched
-/******/ 		// [resolve, reject, Promise] = chunk loading, 0 = chunk loaded
-/******/ 		var installedChunks = {
-/******/ 			"/js/card": 0,
-/******/ 			"css/card": 0
-/******/ 		};
-/******/ 		
-/******/ 		// no chunk on demand loading
-/******/ 		
-/******/ 		// no prefetching
-/******/ 		
-/******/ 		// no preloaded
-/******/ 		
-/******/ 		// no HMR
-/******/ 		
-/******/ 		// no HMR manifest
-/******/ 		
-/******/ 		__webpack_require__.O.j = (chunkId) => (installedChunks[chunkId] === 0);
-/******/ 		
-/******/ 		// install a JSONP callback for chunk loading
-/******/ 		var webpackJsonpCallback = (parentChunkLoadingFunction, data) => {
-/******/ 			var [chunkIds, moreModules, runtime] = data;
-/******/ 			// add "moreModules" to the modules object,
-/******/ 			// then flag all "chunkIds" as loaded and fire callback
-/******/ 			var moduleId, chunkId, i = 0;
-/******/ 			for(moduleId in moreModules) {
-/******/ 				if(__webpack_require__.o(moreModules, moduleId)) {
-/******/ 					__webpack_require__.m[moduleId] = moreModules[moduleId];
-/******/ 				}
-/******/ 			}
-/******/ 			if(runtime) var result = runtime(__webpack_require__);
-/******/ 			if(parentChunkLoadingFunction) parentChunkLoadingFunction(data);
-/******/ 			for(;i < chunkIds.length; i++) {
-/******/ 				chunkId = chunkIds[i];
-/******/ 				if(__webpack_require__.o(installedChunks, chunkId) && installedChunks[chunkId]) {
-/******/ 					installedChunks[chunkId][0]();
-/******/ 				}
-/******/ 				installedChunks[chunkIds[i]] = 0;
-/******/ 			}
-/******/ 			return __webpack_require__.O(result);
-/******/ 		}
-/******/ 		
-/******/ 		var chunkLoadingGlobal = self["webpackChunk"] = self["webpackChunk"] || [];
-/******/ 		chunkLoadingGlobal.forEach(webpackJsonpCallback.bind(null, 0));
-/******/ 		chunkLoadingGlobal.push = webpackJsonpCallback.bind(null, chunkLoadingGlobal.push.bind(chunkLoadingGlobal));
-/******/ 	})();
-/******/ 	
-/************************************************************************/
-/******/ 	
-/******/ 	// startup
-/******/ 	// Load entry module and return exports
-/******/ 	// This entry module depends on other loaded chunks and execution need to be delayed
-/******/ 	__webpack_require__.O(undefined, ["css/card"], () => (__webpack_require__("./resources/js/card.js")))
-/******/ 	var __webpack_exports__ = __webpack_require__.O(undefined, ["css/card"], () => (__webpack_require__("./resources/sass/card.scss")))
-/******/ 	__webpack_exports__ = __webpack_require__.O(__webpack_exports__);
-/******/ 	
+var __webpack_exports__ = {};
+// This entry need to be wrapped in an IIFE because it need to be isolated against other modules in the chunk.
+(() => {
+/*!******************************!*\
+  !*** ./resources/js/card.js ***!
+  \******************************/
+Nova.booting(function (Vue, router, store) {
+  Vue.component("filterable-modal", __webpack_require__(/*! ./components/FilterModal */ "./resources/js/components/FilterModal.vue"));
+  Vue.component("date-time-picker", __webpack_require__(/*! ./components/DateTimePicker */ "./resources/js/components/DateTimePicker.vue"));
+  Vue.component("filterable-value-metric", __webpack_require__(/*! ./components/FilterableValueMetric */ "./resources/js/components/FilterableValueMetric.vue"));
+  Vue.component("filterable-trend-metric", __webpack_require__(/*! ./components/FilterableTrendMetric */ "./resources/js/components/FilterableTrendMetric.vue"));
+  Vue.component("filterable-partition-metric", __webpack_require__(/*! ./components/FilterablePartitionMetric */ "./resources/js/components/FilterablePartitionMetric.vue"));
+});
+})();
+
 /******/ })()
 ;
